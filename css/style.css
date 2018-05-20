@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab:100');
+@font-face{
+	font-family:'Open Sans', sans-serif;
+	src: url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
+}
+@media screen and (max-width: 468px){
+	.D{
+	position: absolute;
+	font-family: 'Josefin Slab', serif;
+	right: 14.61%;
+	top: 22.98%; 
+	font-size: 40pt;
+	font-weight: 100;	
+} 
+
+}
+*{
+	margin:0px;
+}
+body{
+	color: white;
+	font-family: Estrangelo Edessa;
+	background-image: url("../img/desktop.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative; 
+	/*columns: 2400px;*/
+	height: 100vh;
+	/*column-fill: 2200px;*/
+
+}
+main{
+	position: absolute;
+	text-align: center;
+	font-family:'Josefin Slab', serif;
+	text-align: left;
+	/*margin: 19.90em 0;*/
+	right: 6%;
+	padding-right:32%;
+	padding-top: 23%;
+	padding-bottom: 40%;
+	padding-left: 34.6%;
+	
+}
+
+.D{
+	position: absolute;
+	font-family: 'Josefin Slab', serif;
+	right: 14.61%;
+	top: 22.98%; 
+	font-size: 40pt;
+	font-weight: 100;
+	 
+	
+} 
+.A{
+	position: absolute;
+	font-family:'Open Sans', sans-serif;
+	text-align: center;
+	font-weight: 300;
+	right: 67%;
+	top: 119%;
+	font-size: 94px;
+	width: 10%;
+	
+
+}
+.T{
+	position: absolute;
+	font-family:'Open Sans', sans-serif;
+	text-align: center;
+	right: 56.5%;
+	top: 155.5%;
+	font-size: 94px;
+	font-weight: 300;	
+}
+.ul{
+	position: absolute;
+	font-family:'Josefin Slab', serif;
+	text-align: center;
+	font-size: 29px; 
+	right:16%;
+	top: 95%;
+	padding-right: 0%;
+	padding-left: 54.8%;
+
+}
+.IN{
+	position: absolute;
+	font-family:'Josefin Slab', serif;
+	text-align: center;
+	font-size: 49px; 
+	right:16%;
+	top: 124%;
+	padding-right: 0%;
+	padding-left: 54.8%;
+
+}
+.F{
+	position: relative;
+	font-family: High Tower Text;
+	text-align
+	padding-left: 466%;
+	top: 153%;
+	font-size: 57PX;
+}
+.fabfa-facebook-f{
+	position: relative;
+	right: 14.61%;
+	top: 16.57%; 
+	font-size: 40pt;
+	font-weight: 100;
+}
+/*.....................................................
+image-style*/
+
+.fotorama{
+	position: repeat;
+	margin-right: 160%;
+	/*box-sizing: width:70px; height: 80px;*/
+	padding-right: 56px;
+	padding-left: 22.88%;
+	padding-top: 22%;
+	width: 56.1%;
+	height: 589px;
+	margin-bottom: 0px;
+	
