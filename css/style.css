@@ -4,8 +4,6 @@
 	src: url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
 }
 
-
-}
 *{
 	max-width: 1400px ;
 	
@@ -18,25 +16,15 @@ body{
 	background-size: cover;
 	background-repeat: no-repeat;
 	position: relative; 
-	/*columns: 2400px;*/
 	height: 100vh;
-	/*column-fill: 2200px;*/
 	
 
 }
 main p{
 	display: flex;
 	position: absolute;
-	text-align: center;
 	font-family:'Josefin Slab', serif;
 	text-align: left;
-	/*margin: 19.90em 0;*/
-	right: 6%;
-	padding-right:32%;
-	padding-top: 23%;
-	padding-bottom: 40%;
-	padding-left: 34.6%;
-	
 	right: 45.8%;
 	width:260px;
 	top: 1199px;
@@ -48,9 +36,6 @@ main p{
 .D{
 	position: absolute;
 	font-family: 'Josefin Slab', serif;
-	right: 14.61%;
-	top: 22.98%; 
-	font-size: 40pt;
 	right: 13.81%;
 	top: 22%; 
 	font-size: 41pt;
@@ -75,9 +60,6 @@ main p{
 	position: absolute;
 	font-family:'Open Sans', sans-serif;
 	text-align: center;
-	right: 56.5%;
-	top: 155.5%;
-	font-size: 94px;
 	right: 55.5%;
 	top: 155.9%;
 	font-size: 98px;
@@ -89,9 +71,6 @@ main p{
 	text-align: center;
 	font-size: 29px; 
 	right:16%;
-	top: 95%;
-	padding-right: 0%;
-	padding-left: 54.8%;
 	top: 141%;
 	width: 25%;
 	/*border: 2px solid pink; */
@@ -102,10 +81,6 @@ main p{
 	font-family:'Josefin Slab', serif;
 	text-align: center;
 	font-size: 49px; 
-	right:16%;
-	top: 124%;
-	padding-right: 0%;
-	padding-left: 54.8%;
 	right:16.5%;
 	top: 122%;
 	width: 28%;
@@ -120,13 +95,6 @@ main p{
 	top: 153%;
 	font-size: 57PX;
 }
-.fabfa-facebook-f{
-	position: relative;
-	right: 14.61%;
-	top: 16.57%; 
-	font-size: 40pt;
-	font-weight: 100;
-}
 /*.....................................................
 image-style*/
 
@@ -140,7 +108,6 @@ image-style*/
 	width: 56.1%;
 	height: 589px;
 	margin-bottom: 0px;
-	}
 @media screen and (max-width: 960px){
 		body{
 	height: 90vh;
