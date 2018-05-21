@@ -7,6 +7,8 @@
 
 }
 *{
+	max-width: 1400px ;
+	
 	margin:0px;
 }
 body{
@@ -19,9 +21,11 @@ body{
 	/*columns: 2400px;*/
 	height: 100vh;
 	/*column-fill: 2200px;*/
+	
 
 }
-main{
+main p{
+	display: flex;
 	position: absolute;
 	text-align: center;
 	font-family:'Josefin Slab', serif;
@@ -33,6 +37,11 @@ main{
 	padding-bottom: 40%;
 	padding-left: 34.6%;
 	
+	right: 45.8%;
+	width:260px;
+	top: 1199px;
+	margin-bottom: 100PX;
+	/*border:3px blue solid;*/
 }
 @media screen and (){}
 
@@ -42,7 +51,11 @@ main{
 	right: 14.61%;
 	top: 22.98%; 
 	font-size: 40pt;
+	right: 13.81%;
+	top: 22%; 
+	font-size: 41pt;
 	font-weight: 100;
+	/*border:2px solid red;*/
 	 
 	
 } 
@@ -53,7 +66,7 @@ main{
 	font-weight: 300;
 	right: 67%;
 	top: 119%;
-	font-size: 94px;
+	font-size: 98px;
 	width: 10%;
 	
 
@@ -65,6 +78,9 @@ main{
 	right: 56.5%;
 	top: 155.5%;
 	font-size: 94px;
+	right: 55.5%;
+	top: 155.9%;
+	font-size: 98px;
 	font-weight: 300;	
 }
 .ul{
@@ -76,6 +92,9 @@ main{
 	top: 95%;
 	padding-right: 0%;
 	padding-left: 54.8%;
+	top: 141%;
+	width: 25%;
+	/*border: 2px solid pink; */
 
 }
 .IN{
@@ -87,6 +106,10 @@ main{
 	top: 124%;
 	padding-right: 0%;
 	padding-left: 54.8%;
+	right:16.5%;
+	top: 122%;
+	width: 28%;
+	/*border:2px solid green;*/
 
 }
 .F{
@@ -117,4 +140,234 @@ image-style*/
 	width: 56.1%;
 	height: 589px;
 	margin-bottom: 0px;
-	
+	}
+@media screen and (max-width: 960px){
+		body{
+	height: 90vh;
+	}	
+	main p{
+		right: 39.7%;
+		width:230px;
+		top: 810px;
+		margin-bottom: 100PX;
+		/*border: 2PX green solid;*/
+	}
+
+	.D{
+		right: 14.61%;
+		top: 17%; 
+		font-size: 28.5pt;
+	} 
+
+	.A{
+		right: 67%;
+		top: 90%;
+		font-size: 75px;
+	}
+	.T{
+		right: 53.5%;
+		top: 116.9%;
+		font-size: 75px;	
+	}
+	.ul{
+		font-size: 20px; 
+		right:16%;
+		top: 135%;
+		width: 25%;
+		/*border: 2px solid pink; */
+	}
+	.IN{
+		font-size: 39px; 
+		right:14.98%;
+		top: 95%;
+		width: 28%;
+		/*border:2px solid green;*/
+	}
+	.fotorama{
+		
+		margin-right: 160%;
+		padding-right: 56px;
+		padding-left: 16.9%;
+		padding-top: 18%;
+		width: 66.1%;
+		height: 589px;
+		margin-bottom: 0px;
+}
+}
+@media screen and (max-width: 640px){
+		body{
+	background-image: url("../img/desktop640.png");
+	height: 90vh;
+	}	
+	main p{
+		right: 45.5%;
+		width:230px;
+		top: 530px;
+		margin-bottom: 100PX;
+		/*border: 2PX yellow solid;*/
+	}
+
+	.D{
+		right: 23.5%;
+		top: 9%; 
+		font-size: 28.5pt;
+	} 
+
+	.A{
+		right: 69%;
+		top: 76%;
+		width: 15%;
+		font-size: 45px;
+	}
+	.T{
+		right: 50.5%;
+		top: 85.9%;
+		font-size: 45px;	
+	}
+	.ul{
+		font-size: 20px; 
+		right:13.366666%;
+		top: 97%;
+		width: 35%;
+		/*border: 2px solid pink;
+*/
+	}
+	.IN{
+		font-size: 29px; 
+		right:13.98%;
+		top: 76%;
+		width: 28%;
+		/*border:2px solid green;*/
+
+	}
+	.fotorama{
+		
+		margin-right: 160%;
+		padding-right: 56px;
+		padding-left: 16.9%;
+		padding-top: 18%;
+		width: 66.1%;
+		height: 589px;
+		margin-bottom: 0px;
+}
+}
+@media screen and (max-width: 320px){
+		body{ /*(mobile 320px landscape= 714px)*/
+	background-image: none;
+	background-color: #111314;
+	/*border:2px solid red;*/
+
+	}	
+	main p{
+		right: 11%;
+		width:260px;
+		top: 365px;
+		font-size: 16pt;
+		margin-bottom: 100PX;
+		/*border: 2PX purple solid;*/
+	}
+
+	.D{
+		right: 1.5%;
+		top: 1%; 
+		width: 92px;
+		font-size: 28.5pt;
+	} 
+
+	.A{
+		right: 69%;
+		top: 79%;
+		width: 15%;
+		font-size: 45px;
+		color: #111314;
+	}
+	.T{
+		right: 50.5%;
+		top: 48%;
+		font-size: 45px;	
+	}
+	.ul{
+		font-size: 20px; 
+		right:13%;
+		top: 400%;
+		width: 25%;
+		color: #111314;
+
+	}
+	.IN{
+		font-size: 19px; 
+		right:9.98%;
+		top: 204%;
+		width: 28%;
+		color: #111314;
+		/*border:2px solid green*/;
+		
+	}
+	.fotorama{
+		
+		margin-right: 0%;
+		padding-right: 0px;
+		padding-left: 10%;
+		padding-top: 11%;
+		width: 100%;
+		height: 589px;
+		margin-bottom: 0px;
+}
+}
+/*@media screen and (max-width: 640px){
+		body{
+	background-image: url("../img/desktop.png");
+	height: 90vh;
+	}	
+	main p{
+		right: 46.5%;
+		width:230px;
+		top: 560px;
+		margin-bottom: 100PX;
+		border: 2PX yellow solid;
+	}
+
+	.D{
+		right: 23.5%;
+		top: 9%; 
+		font-size: 28.5pt;
+	} 
+
+	.A{
+		right: 69%;
+		top: 66%;
+		width: 15%;
+		font-size: 45px;
+	}
+	.T{
+		right: 50.5%;
+		top: 75.9%;
+		font-size: 45px;	
+	}
+	.ul{
+		font-size: 20px; 
+		right:18%;
+		top: 87%;
+		width: 25%;
+		border: 2px solid pink;
+
+	}
+	.IN{
+		font-size: 29px; 
+		right:13.98%;
+		top: 68%;
+		width: 28%;
+		border:2px solid green;
+
+	}
+	.fotorama{
+		
+		margin-right: 160%;
+		padding-right: 56px;
+		padding-left: 16.9%;
+		padding-top: 18%;
+		width: 66.1%;
+		height: 589px;
+		margin-bottom: 0px;
+}
+}*/
